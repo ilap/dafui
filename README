@@ -1,0 +1,19 @@
+Design Application Framework's Animation Module
+
+Animation module of the DaF and it implements a simple Animation service for 
+Gtk+3 based Widgets until Gtk+4 and Clutter 2.0 arrive. It's similar to Clutter 
+API but in 2D, and includes the following:
+   * property animation, 
+   * timeline, 
+   * keyframes. 
+Also, it includes some components which extends functionality of Widgets (such 
+add opacity/offset) and a very-light-weight animated widget called DeckLayout 
+(similar to the notebook widget just much simpler).
+
+Big credits for  Chirstian Hergert as lot of idea came from his Gtk based 
+animations.[1][2].
+
+References
+
+[1] Christian Hergert's blog, http://audiodude.com
+[2] Christian Hergert's Youtube Channel, http://http://www.youtube.com/user/vwduder?feature=watch
