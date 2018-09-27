@@ -62,7 +62,7 @@ set (VALA_SOURCES
     Widgets/ICard.vala
 )
 
-set (PKG_DEPS gtk+-3.0 glib-2.0 gee-1.0)
+set (PKG_DEPS gtk+-3.0 glib-2.0 gee-0.8)
 ################################################################################
 
 find_package (PkgConfig)

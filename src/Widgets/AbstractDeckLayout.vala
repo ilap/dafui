@@ -53,7 +53,7 @@ namespace Daf.UI.Widgets {
             set_has_window (false);
         }
 
-        ~DeckLayout () {
+        ~AbstractDeckLayout () {
            //TODO: foreach (var card in cards) {
            // remove_card (card);
             // }

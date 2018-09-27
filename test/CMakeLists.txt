@@ -8,7 +8,7 @@ set (VALA_SOURCES
     Model/Address.vala
 )
 
-set (PKG_DEPS gtk+-3.0 glib-2.0 gio-2.0 gee-1.0)
+set (PKG_DEPS gtk+-3.0 glib-2.0 gio-2.0 gee-0.8)
 
 # set (CMAKE_VERBOSE_MAKEFILE ON)
 set (CMAKE_FIND_LIBRARY_SUFFIXES .so)
