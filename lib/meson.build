@@ -1,0 +1,17 @@
+sources = files (
+    'Animation/TimeLine.vala',
+    'Animation/IAnimatable.vala',
+    'Animation/AnimationMode.vala',
+    'Animation/PropertyAnimator.vala',
+    'Animation/AnimatableAdapter.vala',
+    'Animation/KeyFrame.vala',
+    'Core/AbstractListModel.vala',
+    'Core/AbstractTreeModel.vala',
+    'Widgets/AnimatedDeckLayout.vala',
+    'Widgets/AnimatedCard.vala',
+    'Widgets/DeckLayout.vala',
+    'Widgets/AbstractDeckLayout.vala',
+    'Widgets/Card.vala',
+    'Widgets/ICard.vala',
+    'Widgets/IDeckLayout.vala',
+)
